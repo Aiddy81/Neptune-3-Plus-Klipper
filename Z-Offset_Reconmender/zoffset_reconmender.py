@@ -16,16 +16,6 @@ points = np.array([
     [0.195756, 0.143052, 0.056468, 0.011294, -0.052703, -0.0389, -0.008784, 0.013803, 0.066507, 0.16313, 0.233401],
 ])
 
-# Display the mesh in a matrix
-#plt.imshow(points, cmap='hot', interpolation='nearest')
-#plt.colorbar(label='Z-offset')
-#plt.title('Mesh Z-offsets')
-#plt.show()
-
-# Calculate the best z-offset (the one that minimizes the standard deviation)
-#best_z_offset = np.mean(points)
-#print(f"The best Z-offset is {best_z_offset}")
-
 # Calculate the best z-offset (the one that minimizes the standard deviation)
 best_z_offset = np.mean(points)
 
