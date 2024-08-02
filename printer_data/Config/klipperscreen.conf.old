@@ -1,0 +1,28 @@
+[preheat PLA]
+extruder: 210
+heater_bed: 60
+[preheat PETG]
+extruder: 240
+heater_bed: 70
+
+[main]
+default_printer: ElegooNeptune3Plus
+
+[printer AnetA8]
+moonraker_host: 127.0.0.1
+moonraker_port: 7125
+
+[printer ElegooNeptune3Plus]
+moonraker_host: 127.0.0.1
+moonraker_port: 7126
+
+[printer Printer03]
+moonraker_host: 127.0.0.1
+moonraker_port: 7127
+
+
+#~# --- Do not edit below this line. This section is auto generated --- #~#
+#~#
+#~# [main]
+#~# confirm_estop = True
+#~#
